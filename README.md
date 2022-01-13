@@ -7,6 +7,8 @@ For installation, use the following commands in your command-line.
 ```
 // Clone the repository
 git clone git@github.com:makeitworkpress/wp-typescript-starter.git
+
+// Get to cloned directory
 cd wp-typescript-starter
 
 // Install devDependecies
