@@ -1,1 +1,1 @@
-// Start using typescript here!
+// Start using TypeScript here!
