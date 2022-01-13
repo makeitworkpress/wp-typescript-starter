@@ -9,7 +9,7 @@ For installation, use the following commands in your command-line.
 git clone git@github.com:makeitworkpress/wp-typescript-starter.git
 cd wp-typescript-starter
 
-// Install dependecies
+// Install devDependecies
 npm install
 
 // Run compilation scripts in dev / watch mode
