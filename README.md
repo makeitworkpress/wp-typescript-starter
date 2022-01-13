@@ -4,7 +4,7 @@ Simple starter template for WordPress projects that want to use TypeScript in co
 ## Usage
 
 For installation, use the following commands in your command-line.
-``
+```
 // Clone the repository
 git clone git@github.com:makeitworkpress/wp-typescript-starter.git
 cd wp-typescript-starter
@@ -17,7 +17,7 @@ npm run start
 
 // Run compilation scripts for production
 npm run build
-``
+```
 
 This file uses /src/scripts.ts as the entry file. This file is compiled to /public/scripts.js when running the build or start npm scripts. 
 Start writing your code in /src/scripts.ts, or modify the webpack.config.js to your own liking.
