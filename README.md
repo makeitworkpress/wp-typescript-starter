@@ -21,8 +21,8 @@ npm run start
 npm run build
 ```
 
-This file uses /src/scripts.ts as the entry file. This file is compiled to /public/scripts.js when running the build or start npm scripts. 
-Start writing your code in /src/scripts.ts, or modify the webpack.config.js to your own liking.
+This file uses /assets/src/scripts.ts as the entry file. This file is compiled to /assets/public/scripts.js when running the build or start npm scripts. 
+Start writing your code in /assets/src/scripts.ts, or modify the webpack.config.js to your own liking.
 
 Under the hood, this starter boilerplate uses @wordpress-scripts to compile scripts, 
 but extends its configuration in webpack.config.js to support Typescript and custom entry and output directories.
