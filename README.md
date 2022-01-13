@@ -1,5 +1,8 @@
 # wp-typescript-starter
-Simple starter template for WordPress projects that want to use TypeScript in combination with @wordpress/scripts.
+The power of WordPress and TypeScript combined.
+
+This is a simple starter template for WordPress development projects that want to use TypeScript in combination with @wordpress/scripts. 
+It makes using TypeScript in WordPress a breeze.
 
 ## Usage
 
