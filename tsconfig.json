@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+      "outDir": "./assets/public/",
+      "jsx": "react-jsx",
+      "module": "ESNext",
+      "target": "ES2015", // Set to ES5 for older browser support.
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node"
+  }
+}
