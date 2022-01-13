@@ -1,0 +1,15 @@
+{
+    "name": "wp-typescript-starter",
+    "version": "1.0.0",
+    "author": "Michiel Tramper",
+    "description": "A starter package for using TypeScript with WordPress",
+    "devDependencies": {
+        "@wordpress/scripts": "latest",
+        "ts-loader": "latest",
+        "typescript": "latest"
+    },
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start"
+    }
+}
