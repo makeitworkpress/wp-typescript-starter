@@ -8,7 +8,7 @@ It makes using TypeScript in WordPress a breeze.
 
 For installation, use the following commands in your command-line.
 ```
-// Clone the repository
+// Clone the repository in your plugin or theme directory
 git clone git@github.com:makeitworkpress/wp-typescript-starter.git
 
 // Get to cloned directory
@@ -26,6 +26,9 @@ npm run build
 
 This file uses /assets/src/scripts.ts as the entry file. This file is compiled to /assets/public/scripts.js when running the build or start npm scripts. 
 Start writing your code in /assets/src/scripts.ts, or modify the webpack.config.js to your own liking.
+
+This file should be cloned into the plugin or themes folder of your project. 
+For a theme, index.php should be renamed to functions.php and obviously, you need to add style.css with our theme details.
 
 Under the hood, this starter boilerplate uses @wordpress-scripts to compile scripts, 
 but extends its configuration in webpack.config.js to support Typescript and custom entry and output directories.
